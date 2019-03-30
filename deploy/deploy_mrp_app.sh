@@ -29,4 +29,4 @@ sudo /etc/init.d/tomcat7 restart
 # Run Ordering Service app
 sudo java -jar /var/lib/partsunlimited/ordering-service-0.1.0.jar &>/dev/null &
 
-echo "MRP application successfully deployed. Go to http://<YourDNSname>:9080/mrp"
+echo "MRP application successfully deployed. Go to http://mrp-deploy-jberny.westeurope.cloudapp.azure.com:9080/mrp"
